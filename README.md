@@ -10,3 +10,10 @@ not required, only add if youre having any auth issues
 ```env
 COOKIE=_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_ETC...
 ```
+
+## HOW TO RUN 
+###### if you need dont know how to use this thing
+make sure you have [node.js](https://nodejs.org/) installed
+### in terminal
+##### ```npm i``` to install dependencies
+##### ```npm start``` to run the script
