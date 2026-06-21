@@ -1,6 +1,6 @@
 # FETCH FILES BATCH
-fetches files by iterating through and appending a list of values to the given url
-originally made for roblox, but feel free to change up the variables
+##### fetches files by iterating through a list of values and appending it to the given url
+##### originally made for roblox, but feel free to change up the variables
 
 ## IMPORTANT FILES 
 ### ids.txt*
