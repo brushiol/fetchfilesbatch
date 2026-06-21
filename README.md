@@ -4,7 +4,7 @@ originally made for roblox, but feel free to change up the variables
 
 ## IMPORTANT FILES 
 ### ids.txt*
-doesnt have to be numbers, just make sure every value you want appended to each request is seperated by a line skip
+doesnt have to be numbers, just make sure every value you want appended to each request is separated by a line skip
 ### .env
 not required, only add if youre having any auth issues
 ```env
