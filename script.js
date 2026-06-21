@@ -9,12 +9,14 @@ const fetchCookie = require("fetch-cookie").default(fetch) //fuck off
 require("dotenv").config({
     quiet: true
 });
+
 const ids = fs.readFileSync("./ids.txt").toString().split("\r\n")
 const prefix = "https://assetdelivery.roblox.com/v1/asset?id="
 const suffix = "" //change to "&version=1" if you encounter any related issues
 const cont = "./assets/";
 
-fetchCookie.cookieJar.setCookie(".ROBLOSECURITY=" + process.env.COOKIE, prefix) //feel free to replace if yk what ur doing
+if (process.env.COOKIE)
+    fetchCookie.cookieJar.setCookie(".ROBLOSECURITY=" + process.env.COOKIE, prefix) //feel free to replace if yk what ur doing
 
 if (!fs.existsSync(cont)) fs.mkdirSync(cont);
 (async () => {
