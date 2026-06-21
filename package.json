@@ -2,7 +2,8 @@
   "dependencies": {
     "fast-xml-parser": "^5.9.3",
     "fetch-cookie": "^3.2.0",
-    "file-type": "^22.0.1"
+    "file-type": "^22.0.1",
+    "dotenv": "^1.0.0"
   },
   "scripts": {
     "start": "node script.js"
